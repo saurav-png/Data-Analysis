@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "b1e10339e2e3df72",
+    "type": "split",
+    "children": [
+      {
+        "id": "533f88bb7745e528",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e0fc9f74790c6a9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1a05e2feac45dfb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "da69624f8eeb93a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "428b54ed252f2506",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3536ee8aa91d2063",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9d9cec3cae5b46b0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b2f31c4a10bef2e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "45b3c9f4c73db3ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4135a1cd5c775b64",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1-Time Series Analysis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a97088dfe5e101d2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1-Time Series Analysis.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d6e495dd9a848fd8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "127181cd9f4799b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1-Time Series Analysis.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "428b54ed252f2506",
+  "lastOpenFiles": [
+    "ADF and KPSS test.md",
+    "1-Time Series Analysis.md",
+    "Decomposition Plot.md",
+    "data/decompositionOfMultiplicativeTS.png",
+    "Decomposition of Multiplicative Time Series.md",
+    "Decomposition_of_Multiplicative_Time_Series.md",
+    "data/stationary_nonStationary.jpg",
+    "Decomposition-of-Multiplicative-Time-Series.md",
+    "Decomposition.md",
+    "Untitled.md",
+    "data/additive-multiplicative.jpg",
+    "data"
+  ]
+}
