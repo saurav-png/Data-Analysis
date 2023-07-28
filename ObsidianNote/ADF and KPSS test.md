@@ -102,7 +102,7 @@ The KPSS test is another hypothesis test used to assess the stationarity of a ti
 - **Alternative Hypothesis (H<sub>1</sub>):** The time series is non-stationary and does not have a deterministic trend.
 
 
-	*Note: The equation is not the concern as we can find packages that calculates for us.*
+	*Note: The equation is not the concern here as we can find packages that calculates for us.*
 
 2. **How the KPSS Test Works:**
 
