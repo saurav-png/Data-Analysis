@@ -3,11 +3,7 @@
 
 Autocorrelation measures the correlation between a time series and its lagged values. It assesses the relationship between past observations and the current observation at different lags. In a stationary time series, the autocorrelation typically decreases with increasing lag because the influence of past observations diminishes over time.
 
-### Characteristics of Stationary Time Series:
 
-1. **Constant Statistical Properties:** In a stationary time series, the mean, variance, and autocorrelation remain constant over time.
-2. **No Trend or Seasonality:** Stationary time series do not exhibit long-term trends or repeating seasonal patterns.
-3. **Constant Autocorrelation:** While the magnitude of autocorrelation may vary at different lags, the overall pattern should not change. It should show a gradual decrease or fluctuations around zero.
 
 ### Interpreting ACF in Relation to Stationarity:
 
@@ -83,9 +79,22 @@ In words, the PACF at lag _k_ is the correlation between _Y<sub>t</sub>_ and _Y<
 
 ## Example: 
 
-Suppose we have a time series of monthly sales data, and we want to understand the relationship between current month's sales and sales that happened 3 months ago. Let's calculate the ACF and PACF for this example:
+Suppose we have a time series of monthly sales data for a retail store, and we want to analyze the relationship between the current month's sales and sales that happened 3 months ago.
 
-- ACF(3): This will measure the correlation between the current month's sales and sales that occurred 3 months ago, considering all the sales in between.
-- PACF(3): This will measure the correlation between the current month's sales and sales that occurred 3 months ago, but it will remove the influence of sales from the previous 2 months (i.e., lag 1 and lag 2).
+1. **ACF(3):**
 
-The PACF(3) will give a more direct measure of the correlation between current month's sales and sales from exactly 3 months ago without being influenced by sales from the intervening months.
+    - ACF(3) measures the correlation between the current month's sales and sales that occurred 3 months ago, considering all the sales in between.
+    - It tells us how related the sales in the current month are to the sales that happened 3 months ago, while considering the influence of the sales at lag 1, lag 2, and all the other lags in between.
+    - If ACF(3) is significantly different from zero, it suggests a correlation between the current month's sales and sales from 3 months ago, even when considering all the sales in between.
+
+2. **PACF(3):**
+    
+    - PACF(3) measures the correlation between the current month's sales and sales that occurred 3 months ago, but it removes the influence of sales from the previous 2 months (i.e., lag 1 and lag 2).
+    - It provides a more direct measure of the correlation between the current month's sales and sales exactly 3 months ago without being influenced by sales from the intervening months.
+    - If PACF(3) is significantly different from zero, it indicates a strong linear relationship between the current month's sales and sales that happened 3 months ago, independent of the sales at lag 1 and lag 2.
+
+**Higher Correlation in PACF:**
+
+Suppose the PACF(3) is found to be significantly different from zero, indicating a strong correlation between the current month's sales and sales from 3 months ago. This higher correlation in PACF(3) suggests that the sales from exactly 3 months ago have a substantial impact on the current month's sales, and it can be an essential predictor for forecasting future sales.
+
+On the other hand, if the ACF(3) shows a high correlation but the PACF(3) drops to zero after removing the influence of sales at lag 1 and lag 2, it implies that the sales from 3 months ago may not have a direct influence on the current month's sales. In such a scenario, we would need to consider other lags or use different modeling techniques to better capture the relationship between the sales data.

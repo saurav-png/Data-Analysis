@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4125f58af645b240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4-Granger's Causality Test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b89bba5e6a870596",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Vector Autoregression(VAR).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Time Series Analysis.md",
+                "file": "3-Vector Autoregression(VAR).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Time Series Analysis.md",
+                "file": "3-Vector Autoregression(VAR).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Time Series Analysis.md"
+                "file": "3-Vector Autoregression(VAR).md"
               }
             }
           }
@@ -146,10 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e0fc9f74790c6a9",
+  "active": "b89bba5e6a870596",
   "lastOpenFiles": [
-    "ADF and KPSS test.md",
+    "4-Granger's Causality Test.md",
+    "3-Vector Autoregression(VAR).md",
+    "2-Autocorrelation.md",
     "1-Time Series Analysis.md",
+    "ADF and KPSS test.md",
     "Decomposition Plot.md",
     "data/decompositionOfMultiplicativeTS.png",
     "Decomposition of Multiplicative Time Series.md",
@@ -157,7 +185,6 @@
     "data/stationary_nonStationary.jpg",
     "Decomposition-of-Multiplicative-Time-Series.md",
     "Decomposition.md",
-    "Untitled.md",
     "data/additive-multiplicative.jpg",
     "data"
   ]
