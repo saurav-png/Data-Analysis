@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "533f88bb7745e528",
+        "id": "74edebca412dc705",
         "type": "tabs",
         "children": [
           {
-            "id": "7e0fc9f74790c6a9",
+            "id": "809a20d75ef380f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Vector Autoregression(VAR).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eadbf6389573fd8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,31 +32,18 @@
             }
           },
           {
-            "id": "4125f58af645b240",
+            "id": "6bae379bb1e344cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-Granger's Causality Test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b89bba5e6a870596",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3-Vector Autoregression(VAR).md",
+                "file": "2-Autocorrelation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +170,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b89bba5e6a870596",
+  "active": "809a20d75ef380f9",
   "lastOpenFiles": [
-    "4-Granger's Causality Test.md",
-    "3-Vector Autoregression(VAR).md",
     "2-Autocorrelation.md",
+    "3-Vector Autoregression(VAR).md",
+    "ARIMA.md",
     "1-Time Series Analysis.md",
     "ADF and KPSS test.md",
+    "4-Granger's Causality Test.md",
     "Decomposition Plot.md",
     "data/decompositionOfMultiplicativeTS.png",
     "Decomposition of Multiplicative Time Series.md",

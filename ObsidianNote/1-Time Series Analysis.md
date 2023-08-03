@@ -112,7 +112,7 @@ Mathematically, the logarithmic transformation can be represented as:
 Logarithmic Transformation: <span style="font-size: 24px;"><em>Y<sub>t</sub>′​=log(Y<sub>t</sub>​)</em></span>
 Where *<span style="font-size: 24px;">Y<sub>t</sub>′​</span>​* represents the transformed series, and *<span style="font-size: 24px;">Y<sub>t</sub>​</span>*​ is the original time series data at time *t*.
 
-By stabilizing the variance using logarithmic transformation and stabilizing the mean by differencing, we can prepare the time series for various time series analysis techniques, such as ARIMA (Auto Regressive Integrated Moving Average), which often assume constant variance and stationarity to produce meaningful results. These transformations are part of the broader process of data pre-processing in time series analysis, where the goal is to make the data suitable for modeling and forecasting.
+By stabilizing the variance using logarithmic transformation and stabilizing the mean by differencing, we can prepare the time series for various time series analysis techniques, such as [[ARIMA]] (Auto Regressive Integrated Moving Average), which often assume constant variance and stationarity to produce meaningful results. These transformations are part of the broader process of data pre-processing in time series analysis, where the goal is to make the data suitable for modeling and forecasting.
 
 
-**Now, let's look at [Autocorrelation](obsidian://open?vault=ObsidianNote&file=2-Autocorrelation)to further our understanding of ARIMA model**
+**Now, let's look at [[2-Autocorrelation]]to further our understanding of ARIMA model**
