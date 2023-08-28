@@ -17,7 +17,3 @@
 
 *Again, the same channel explains this beautifully.*
 ![](https://www.youtube.com/watch?v=zNLG8tsA_Go)
-
-
-<br>
-### ARIMA Model:
